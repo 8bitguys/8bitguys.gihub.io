@@ -91,7 +91,7 @@ p {
 /* Footer */
 .footer {
   height: 600px;
-  display: inline-block;
+  display: inline;
 }
 
 .footer h1,
