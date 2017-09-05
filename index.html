@@ -69,6 +69,18 @@ src="https://www.youtube.com/embed/awZEpf_h-j8">
   </div>
 </div>
 
+	  <div class="comments">
+		  <p>There's a new comment section! You can submit your comments and within a couple of days(if you're lucky, maybe even hours) it will go online. You can also submit notes about the website itself. Enjoy!</p>
+		  <form method='post'>
+  NAME: <input type='text' name='name' id='name' /><br />
+
+  Comment:<br />
+  <textarea name='comment' id='comment'></textarea><br />
+
+  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+  <input type='submit' value='Submit' />  
+</form>
 
   </body>
 </html>
