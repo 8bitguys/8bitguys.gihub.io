@@ -161,32 +161,3 @@ div div a{
 .comments{
 background-color : skyblue;
 }
-
-header {
-  background-color: #0e0e0e;
-  color: white;
-  padding: 5px;
-  position: fixed;
-  width: 100%;
-  z-index: 10;
-}
-
-nav {
-  text-align: right;
-  margin-bottom: 10px;
-  position: fixed;
-  width: 100%;
-  top: 87px;
-  z-index: 10;
-}
-
-nav a {
-  text-decoration: none;
-  color: white;
-}
-
-nav li {
-  display: inline-block;
-  width: 60px;
-  text-align: center;
-}
